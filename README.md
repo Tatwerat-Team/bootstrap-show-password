@@ -21,6 +21,10 @@ Example (Bootstrap 4)
 Example (Bootstrap 3)
 
 ```bash
+<script src="bootstrap3-show-password.js"></script>
+```
+
+```bash
 <div class="input-group">
 <input type="password" name="user_password" id="user_password" class="form-control" data-toggle="password">
   <span class="input-group-addon"><i class="fa fa-eye"></i></span>
