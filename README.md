@@ -7,7 +7,7 @@ include plugin file
 <script src="bootstrap-show-password.js"></script>
 ```
 
-Example
+Example (Bootstrap 4)
 
 ```bash
 <div class="input-group">
@@ -15,5 +15,14 @@ Example
   <div class="input-group-append">
     <span class="input-group-text"><i class="fa fa-eye"></i></span>
   </div>
+</div>
+```
+
+Example (Bootstrap 3)
+
+```bash
+<div class="input-group">
+<input type="password" name="user_password" id="user_password" class="form-control" data-toggle="password">
+  <span class="input-group-addon"><i class="fa fa-eye"></i></span>
 </div>
 ```
